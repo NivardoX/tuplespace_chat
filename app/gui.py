@@ -45,11 +45,8 @@ class GUI:
 
         self.input_value = (tk.StringVar(),)
         self.input_message = ("Escreva algo",)
-        self.input_label = (None,)
-        self.input_button = (None,)
         self.input_input = (None,)
 
-        self.chat_value = tk.StringVar()
         self.chat_message = "Chat"
         self.chat_label = None
         self.chat_button = None
@@ -58,19 +55,10 @@ class GUI:
         self.select_room_value = tk.StringVar()
         self.select_room_message = "Selecione a sala"
         self.select_room_label = None
-        self.select_room_button = None
-        self.select_room_input = None
-
-        self.participants_value = tk.StringVar()
-        self.participants_message = "Participantes"
-        self.participants_label = None
-        self.participants_button = None
-        self.participants_input = None
 
         self.create_room_value = tk.StringVar()
-        self.create_room_message = "Criar Saça"
+        self.create_room_message = "Criar Sala"
         self.create_room_label = None
-        self.create_room_button = None
         self.create_room_input = None
 
         self.popup = None
